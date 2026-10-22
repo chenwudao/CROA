@@ -1,0 +1,13 @@
+torch>=2.4
+torchvision>=0.19
+transformers>=4.49
+accelerate
+huggingface_hub
+numpy
+pandas
+pillow
+tabulate
+matplotlib
+openai>=1.30
+httpx
+requests
