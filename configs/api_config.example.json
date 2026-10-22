@@ -1,0 +1,5 @@
+{
+  "openai_api_key": "YOUR_KEY_HERE",
+  "openai_base_url": "https://api.openai.com/v1",
+  "proxy": null
+}

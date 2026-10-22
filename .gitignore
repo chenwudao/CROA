@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+.venv/
+venv/
+.python-version
+
+# Secrets and local config
+.env
+.env.*
+api_config.json
+configs/api_config.json
+secrets/
+*.pem
+*.key
+
+# Experiment outputs, caches, and checkpoints
+outputs/
+models_cache/
+checkpoints/
+wandb/
+*.log
+*.lock
+*.tmp
+
+# Model weights (download locally; do not commit)
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# Editor and OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# LaTeX build artifacts
+*.aux
+*.out
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.toc
+
+# Reference checkouts that are not part of this repo
+mattack_v2_official_repo/
